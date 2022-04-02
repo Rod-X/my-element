@@ -7,6 +7,8 @@ import store from './store'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
+console.log(ElementUI,'ElementUI');
+
 new Vue({
   router,
   store,
