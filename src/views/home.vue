@@ -12,7 +12,6 @@ import router from "@/router";
 export default class Page extends Vue {
   private routerLlist: string[] = [];
   mounted() {
-    console.log(router);
     router.options.routes?.forEach((v: any) => {
       if (!["index", "home"].includes(v.name)) {
         this.routerLlist.push(v.name);
